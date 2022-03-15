@@ -61,7 +61,7 @@ abstract class MediaItems extends Item {
 	}
 
 	void getRunTime() {
-
+		System.out.println(this.runTime);
 	}
 }
 
@@ -100,15 +100,15 @@ class Video extends MediaItems {
 	}
 
 	void getDirector() {
-
+		System.out.println(this.director);
 	}
 
 	void getGenre() {
-
+		System.out.println(this.genre);
 	}
 
 	void getReleaseYear() {
-
+		System.out.println(this.releaseyear);
 	}
 
 }
