@@ -11,18 +11,11 @@ public class Ex1 {
 
 	public static List<Integer> getValues(Map<Integer, Integer> myList, int num) {
 
-//		Scanner sc = new Scanner(System.in);
-//		for (int i = 0; i < num; i++) {
-//			int j = sc.nextInt();
-//			myList.put(i, j);
-//		}
-//		sc.close();
-
-		myList.put(1, 2);
-		myList.put(2, 1);
-		myList.put(3, 5);
-		myList.put(4, 3);
-		myList.put(5, 4);
+//		myList.put(1, 2);
+//		myList.put(2, 1);
+//		myList.put(3, 5);
+//		myList.put(4, 3);
+//		myList.put(5, 4);
 
 		List<Integer> newList = new ArrayList<>();
 
@@ -40,6 +33,12 @@ public class Ex1 {
 		System.out.print("Enter Numebr of Value for HashMap: ");
 		int num = 0;
 		num = scanner.nextInt();
+
+		for (int i = 0; i < num; i++) {
+			int j = scanner.nextInt();
+			myList.put(i, j);
+		}
+		scanner.close();
 
 		scanner.close();
 
